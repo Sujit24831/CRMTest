@@ -10,6 +10,7 @@ public class TestBase {
 	{
 	System.out.println("This is TestBaseClass");
 	}
+	
 @BeforeMethod
 public void newTest()
 {
@@ -21,6 +22,13 @@ public void newTest1()
 {
 	System.out.println("This is newtest1 method");
 }
+
+@Test
+public void newTest3()
+{
+	System.out.println("This is newtest1 method");
+}
+
 
 @AfterMethod
 public void newTest2()
